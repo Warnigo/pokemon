@@ -1,0 +1,34 @@
+.header {
+    background-color: #c93d3d;
+}
+
+.header-img {
+    width: 140px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center !important;
+}
+
+.search-input input{
+    width: 500px;
+    font-size: 15px;
+}
+
+.search-pokemon {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+.header-about p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fdb242;
+}
+
+.header-about p:hover {
+   color: #ffa31a;
+}
