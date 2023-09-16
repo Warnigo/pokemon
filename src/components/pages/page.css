@@ -1,0 +1,82 @@
+.page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .page h2 {
+    font-size: 33px;
+    margin-bottom: 0px;
+  }
+  
+  .page img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+  .header-page {
+    display: flex;
+    margin: 0 auto;
+    align-items: center !important;
+    justify-content: center;
+  }
+  .page button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container span {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the Tabs component */
+  .ant-tabs {
+    margin-top: 20px;
+  }
+  
+  .ant-tabs-tab {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .ant-tabs-tabpane {
+    padding: 20px;
+  }
+  
+  /* Additional styles for individual tab panes */
+  /* For the "Stats" tab */
+  .ant-tabs-tabpane[key="1"] {
+    background-color: #f9f9f9;
+  }
+  
+  /* For the "Types" tab */
+  .ant-tabs-tabpane[key="2"] {
+    background-color: #f6f6f6;
+  }
+  
+  /* For the "Moves" tab */
+  .ant-tabs-tabpane[key="3"] {
+    background-color: #f3f3f3;
+  }
+  
+  /* For the "Abilities" tab */
+  .ant-tabs-tabpane[key="4"] {
+    background-color: #f0f0f0;
+  }
+  

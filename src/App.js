@@ -1,15 +1,16 @@
-import './App.css';
+
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from './components/home/homeP';
-import Page from './components/pages/page';
+import HomeP from "./components/home/homeP";
+import Page from "./components/pages/page";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/pokemon/:name' element={<Page />} />
+          <Route path="/" element={<HomeP />} />
+          <Route path="/pokemon/:id" element={<Page />} />
         </Routes>
       </BrowserRouter>
     </div>
